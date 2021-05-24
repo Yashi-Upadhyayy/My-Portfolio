@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body
+{
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    
+}
+.navigation
+{
+    background-image: url("images/nav-background.jpg");
+    border-bottom-left-radius: 1rem;
+    padding: 0.5rem;
+}
+.nav-brand
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.list-non-bullet
+{
+    list-style: none;
+    text-align: right;
+}
+.list-item-inline
+{
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.link-active
+{
+    font-weight: bold;
+}
+.hero-img
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero
+{
+    margin: 2rem;
+}
