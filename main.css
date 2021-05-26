@@ -90,7 +90,10 @@ body
 }
 footer
 {
-    height: 40px;
     background-image: url("images/nav-background.jpg");
     border-top-right-radius: 1.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-size: large;
+    text-align: center;
 }
