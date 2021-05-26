@@ -15,7 +15,7 @@ body
 .navigation
 {
     background-image: url("images/nav-background.jpg");
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1.5rem;
     padding: 0.5rem;
 }
 .nav-brand
@@ -76,7 +76,21 @@ body
     margin: auto;
     padding: 1rem;
 }
+.section-white
+{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.section-ow
+{
+    background-color: #EDE9FE;
+}
 footer
 {
     height: 40px;
+    background-image: url("images/nav-background.jpg");
+    border-top-right-radius: 1.5rem;
 }
