@@ -40,6 +40,7 @@ body
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding-inline-start: 0px;
+    padding-top: 5px;
 }
 .list-item-inline
 {
@@ -52,7 +53,7 @@ body
 {
     color: var(--secondary-color);
     text-decoration: none;
-    font-size: 22px;
+    font-size: 23px;
 }
 .link-active
 {
@@ -80,7 +81,6 @@ body
 /* ............SECTION............ */
 .section-intro
 {
-    text-align: center;
     box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
@@ -92,11 +92,12 @@ body
 .section-intro strong
 {
     font-size: larger;
+    display: block; 
+    text-align: center;
 }
 .section-white
 {
     max-width: 800px;
-    text-align: center;
     margin: auto;
     padding: 1rem;
     margin-top: 1rem;
@@ -105,19 +106,30 @@ body
 {
     background-color: var(--gray-shade);
 }
+.section-heading
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* .............FOOTER................ */
 footer
 {
     background-image: url("images/nav-background.jpg");
     border-top-right-radius: 1.5rem;
     padding: 0.5rem;
     color: white;
-    font-size: large;
+    font-size: 20px;
     text-align: center;
 }
 q
 {
     font-style: italic;
     display: block;
+    padding-bottom: 00.3em;
 }
 .list
 {
