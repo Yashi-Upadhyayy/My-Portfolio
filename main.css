@@ -105,6 +105,8 @@ body
 .section-ow
 {
     background-color: var(--gray-shade);
+    border-radius: 0.6rem;
+    /* box-shadow: ; */
 }
 .section-heading
 {
@@ -112,7 +114,7 @@ body
     font-weight: bolder;
     font-size: 1.4rem;
     color: var(--primary-color);
-    text-decoration: underline;
+    /* border-bottom: 3px solid pink; */
 }
 
 /* .............FOOTER................ */
