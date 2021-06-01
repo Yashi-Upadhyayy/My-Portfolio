@@ -35,6 +35,9 @@ body
 .list-non-bullet
 {
     list-style: none;
+}
+.list
+{
     text-align: right;
     margin: 0%;
     margin-block-start: 0px;
@@ -133,9 +136,38 @@ q
     display: block;
     padding-bottom: 00.3em;
 }
-.list
+.listt
 {
     text-align: center;
     margin: 0.5rem 0px;
     padding: 0%;
+}
+#list
+{
+    max-width: 600px;
+    margin: auto;
+}
+.link-primary
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 00.5rem;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1rem 2rem 2rem 1rem;
+}
+.link-secondary
+{
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 00.5rem;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1rem 2rem 2rem 1rem;
+}
+hr
+{
+    margin: 10px;
 }
